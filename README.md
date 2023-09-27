@@ -22,6 +22,8 @@ Contributions welcome. Recommend editing/formatting with [Markdown Tables Genera
 
 ### Table
 
+[View Table](matrix.csv)
+
 ![](matrix.csv)
 
 ### Notes
