@@ -22,9 +22,27 @@ Contributions welcome. Recommend editing/formatting with [Markdown Tables Genera
 
 ### Table
 
-[View Table](matrix.csv)
+<!-- [View Table](matrix.csv) -->
 
-![](matrix.csv)
+<!-- ![](matrix.csv) -->
+
+<!-- <div style="overflow-x:auto;"> -->
+<table>
+  {% for row in site.data.matrix %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>
+<!-- </div> -->
 
 ### Notes
 
