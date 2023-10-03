@@ -1,0 +1,19 @@
+title: Feature Matrix for Nostr Clients
+# email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Contribute changes on github.
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+remote_theme: jekyll/minima@2863624b903b17f838d6ce8d2f77900fa9d3c864
+plugins:
+  - jekyll-remote-theme
+
+minima:
+  skin: auto
+
+exclude:
+  - README.md
+
